@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-9">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>About Us-Liquor World </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!---------navbar-------------->
+  <div class="container">
+      <div class="navbar">
+          <div class="logo">
+                <img src="logo.png" width="125px">
+          </div>
+          <nav>
+              <ul id="MenuItems">
+                <li><a href="home.htm">Home</a></li>
+                <li><a href="products.htm">Products</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="about.htm">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="account.htm">Account</a></li>
+              </ul>
+            </nav>
+            <img src="cart.png" width="30px" height="30px">
+      </div>
+    </div>
+</div>
+</div>
+<div class="small-container single-product">
+    <div class="row">
+            <div class="col-2">
+                <img src="logo_transparent.png" width=100%>
+            </div>
+            <div class="col-2">
+              <h1>Store Timings</h1>
+              <h4>Monday 1:00 PM to 10:00 PM</h4>
+              <h4>Tuesday 1:00 PM to 10:00 PM</h4>
+              <h4>Wednesday 1:00 PM to 10:00 PM</h4>
+              <h4>Thursday 1:00 PM to 10:00 PM</h4>
+              <h4>Friday 1:00 PM to 10:00 PM</h4>
+              <h4>Saturday 1:00 PM to 10:00 PM</h4>
+              <br>
+            </div>
+          </div>
+        </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class=".footer-col-2">
+                  <h3> Useful Links</h3>
+                  <ul>
+                      <li>Coupans</li>
+                      <li>Blog post</li>
+                      <li>Return Policy</li>
+                      <li>Join Affair</li>
+                    </ul>
+            </div>
+            <div class=".footer-col-3">
+              <h3> Follow us</h3>
+              <ul>
+                  <li>Facebook</li>
+                  <li>Twiter</li>
+                  <li>Instagram</li>
+                  <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright"> Copyright 2020 - Jay Gandhi</p>
+      </div>
+    </div>
+  <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxheight= "0px";
+
+        function menutoggle(){
+          if (MenuItems.style.maxheight == "0px")
+          {
+                MenuItems.style.maxheight = "200px";
+          }
+          else {
+                MenuItems.style.maxheight= "0px";
+          }
+        }
+  </script>
+</body>
+</html>
